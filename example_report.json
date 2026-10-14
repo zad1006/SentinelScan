@@ -1,0 +1,21 @@
+{
+  "tool": "SentinelScan",
+  "target": "examples",
+  "finding_count": 2,
+  "findings": [
+    {
+      "file": "examples/vulnerable_demo.py",
+      "line": 2,
+      "rule": "HARDCODED_SECRET",
+      "severity": "high",
+      "message": "Possible hardcoded secret in variable api_key; verify manually"
+    },
+    {
+      "file": "examples/vulnerable_demo.py",
+      "line": 3,
+      "rule": "DYNAMIC_EXECUTION",
+      "severity": "high",
+      "message": "eval() can execute untrusted code"
+    }
+  ]
+}
