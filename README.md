@@ -1,4 +1,4 @@
-# 🛡️ SentinelScan — Python Static Security Scanner
+#  SentinelScan: Python Static Security Scanner
 
 A lightweight Python-based static security analysis tool designed to identify potentially insecure coding practices and security vulnerabilities in Python projects.
 
