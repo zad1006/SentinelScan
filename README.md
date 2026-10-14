@@ -1,5 +1,7 @@
 #  SentinelScan: Python Static Security Scanner
 
+[![Python Tests](https://github.com/zad1006/SentinelScan/actions/workflows/python-tests.yml/badge.svg)](https://github.com/zad1006/SentinelScan/actions/workflows/python-tests.yml)
+
 A lightweight Python-based static security analysis tool designed to identify potentially insecure coding practices and security vulnerabilities in Python projects.
 
 SentinelScan analyzes source code without executing it, helping developers identify security risks during development.
